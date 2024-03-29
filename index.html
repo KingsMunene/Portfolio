@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+/>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="flex items-centre justify-between">
+          <div class="left flex justfiy-right">
+            <div class="logo">
+              <img src="./images/logo.jpeg" width="50px" alt="logo" />
+            </div>
+            <div>
+              <a href="#hero">Home</a>
+              <a href="#projects">Projects</a>
+              <a href="#services">Services</a>
+            </div>
+          </div>
+          <div class="right">
+            <a href="https://wa.me/0700662881" class="btn btn-primary" target="_blank">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="hero flex items-centre justify-between">
+      <div class="left flex-1 justify-center">
+        <img src="./images/MainKing.jpg" alt="Profile" />
+      </div>
+      <div class="right flex-1">
+        <h6>Kings Munene</h6>
+        <h1>
+          I'm a software<br />
+          <span>Engineer</span>
+        </h1>
+        <p>
+          🥹Am passionate about creating quality applications and websites. <br>
+          🚀I like exploring new technology and participating in tech communities. <br>
+          🤖I have an intrest in data analysis and visualization too. <br>
+          😎 love writing technical articles on vast topics.<br>
+        </p>
+        <div>
+          <a class="btn btn-secondary" href="./Kings Munene CV.pdf" download="Kings Munene CV.pdf">Download CV</a>
+        </div>
+      </div>
+    </div>
+    <section id="projects">
+      <div class="container flex items-centre">
+        <div class="right flex-1">
+          <h2>Projects I have worked on</h2>
+          <ul>
+            <li><a href="https://pigdiceking.netlify.app/" target="_blank">Pig Dice</a><br>
+                Pig dice a version of Pig a simple dice game first described in print by John Scarne in 1945<br>
+                Players take turns to roll a single die as many times as they wish, <br>
+                adding all roll results to a running total, but losing their gained score for the turn if they roll a 1
+            </li><br>
+            <li><a href="https://github.com/KingsMunene/GoalsApp">Goals Android Application</a><br>
+                This is an android application that allows a user to Record goals, mark them checked and delete once done <br>
+                It built using jetpack compose and Kotlin
+            </li>
+        </ul>
+          <!-- <div class="socials">
+            <a href="#"><img src="./images/website.jpg" width="40px" /></a>
+            <a href="#"><img src="./images/facebook.jpg" width="40px" /></a>
+            <a href="#"><img src="./images/instagram.jpg" width="40px" /></a>
+            <a href="#"><img src="./images/media-player.jpg" width="40px" /></a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <h1 class="services-head">Services</h1>
+        <p>All your digital needs...covered.</p>
+        <div class="card-grid">
+          <div class="card">
+            <img src="./images/app.png" alt="application development" />
+            <h2>App Development</h2>
+            <p>
+              I craft robust and user-friendly Android applications. From concept to deployment, 
+              I ensure that your app meets high standards of performance, security, and usability. My expertise includes
+              Kotlin, Jetpack Compose, REAST APIs and Android Studio, allowing me to build feature-rich apps that engage users.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/web.png" alt="web development" />
+            <h2>Web Development</h2>
+            <p>
+              I create dynamic and responsive websites that cater to your unique needs.
+              Whether it’s a personal blog, an e-commerce platform, or a corporate site,
+              I design and develop user-friendly interfaces using modern technologies such as
+              HTML, CSS, JavaScript, and frameworks like React or Angular.
+            </p>
+          </div>
+          <div class="card">
+            <img src="" alt="Database Management" />
+            <h2>Database Design and Management</h2>
+            <p>
+              Data is the backbone of any application. I excel in designing, implementing,
+              and maintaining databases. Whether it’s SQL databases (like MySQL or PostgreSQL)
+              or NoSQL databases (such as MongoDB), I optimize data storage,
+              retrieval, and security. My goal is to ensure seamless data flow and efficient query processing.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/hand.png" alt="content writing" />
+            <h2>IT Consulting</h2>
+            <p>
+              As an IT consultant, I serve as a technology compass for businesses. My role involves analyzing existing systems, 
+              identifying inefficiencies, and proposing tailored solutions. Whether it’s streamlining processes,
+              enhancing cybersecurity, or implementing cloud infrastructure, I guide organizations toward optimal IT strategies.
+              My passion lies in demystifying complex tech jargon and empowering clients to make informed decisions.
+              Let’s collaborate to unlock your business’s digital potential.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/graphics.webp" alt="graphic design">
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is my canvas for storytelling. I blend colors, shapes, and typography to evoke emotions and convey messages.
+                From logo design to web layouts, I craft visuals that resonate with audiences. My toolbox includes Adobe Creative Suite,
+                where I wield Photoshop, Illustrator, and InDesign like a maestro. Whether it’s a sleek brochure or an eye-catching social media post,
+                I’m here to transform ideas into captivating visuals. Let’s infuse your brand with creativity and leave a lasting impression .
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h2>Kings Munene &copy; 2024</h2>
+    </footer>
+  </body>
+</html>
