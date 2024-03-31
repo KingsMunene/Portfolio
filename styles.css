@@ -140,7 +140,7 @@ section #projects h1 {
 
 #projects ul li {
   list-style: none;
-  text-decoration: dotted;
+
   font-family: 'Lato', sans-serif;
   color: var(--secondary);
   line-height: 1.9rem;
