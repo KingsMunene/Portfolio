@@ -47,7 +47,7 @@ body {
   margin: 0 auto;
 }
 .hero {
-  padding-top: 8rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
   background-color: var(--bgDark);
 }
@@ -140,6 +140,7 @@ section #projects h1 {
 
 #projects ul li {
   list-style: none;
+  text-decoration: dotted;
   font-family: 'Lato', sans-serif;
   color: var(--secondary);
   line-height: 1.9rem;
@@ -199,7 +200,7 @@ section#projects.socials a:hover {
   position: relative;
   text-align: center;
   transition: all 0.5s ease;
-  border-radius: 3rem;
+  /* border-radius: 3rem; */
 }
 #services .card-grid .card img {
   position: absolute;
