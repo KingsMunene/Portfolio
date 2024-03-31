@@ -7,6 +7,8 @@
   --bgLight: rgb(190, 181, 181);
 }
 
+
+
 * {
   padding: 0;
   margin: 0;
@@ -50,7 +52,9 @@ body {
   background-color: var(--bgDark);
 }
 .hero .left img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: 3rem;
 }
 .hero .right {
